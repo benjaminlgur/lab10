@@ -46,6 +46,6 @@ int main()
     cout << endl << "arr2 is:" << endl;
     printArray(arr2);
 
- 
+    delete []arr2; //deleted the array as it is good practice.
     return 0;
 }//got rid of the ; as functions do not have that at the end of them.
