@@ -1,3 +1,1 @@
 # lab10
-
-dqwdqdqdq
