@@ -36,7 +36,6 @@ int main()
     int *arr2 = NULL;
     arr2 = new int [MAXSIZE]; //I initilized the pointer as its own dynamic array. Before both arrays were altered together.
     for(int i = 0; i < MAXSIZE; i++){
-    cout << values[i] << endl;
     *(arr2 + i) = values[i];
     }
     values[0]=9;
