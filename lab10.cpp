@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 const int MAXSIZE = 16;
@@ -21,12 +22,7 @@ void initArray(int arr[], int val)
 void printArray(int arr[])
 {
     for(int i = 0; i < MAXSIZE; i++){
-        if(i >= 10){
-            cout << i << ": " << arr[i] << endl;
-        }
-        else{
-            cout << " " << i << ": " << arr[i] << endl;
-        }
+        cout << setw(2) << i << ":" << setw(2) << arr[i] << endl; //Set width to 2.
     }
 }//got rid of ; as functions do not have that at the end of them.
 int main()
