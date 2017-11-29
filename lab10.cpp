@@ -48,3 +48,5 @@ int main()
     delete []arr2; //deleted the array as it is good practice.
     return 0;
 }//got rid of the ; as functions do not have that at the end of them.
+
+/* Running the code unedited led to the output being the same with only values 0-4 with a value other then 0. The both edits to the arrays happened to both of them. This is because arr2 points to the array and is not an array itself. Therefore to fix this program I made the pointer arr2 initialize as a dynamic array. */
